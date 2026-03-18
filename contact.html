@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us | Art Gallery</title>
+
+    <style>
+        body{
+            margin:0;
+            font-family: Arial, sans-serif;
+            background:#f4f4f4;
+        }
+
+        header{
+            background:#222;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        .container{
+            max-width:600px;
+            margin:40px auto;
+            background:white;
+            padding:30px;
+            border-radius:10px;
+            box-shadow:0 0 10px rgba(0,0,0,0.2);
+        }
+
+        h2{
+            text-align:center;
+            margin-bottom:20px;
+        }
+
+        label{
+            display:block;
+            margin-top:12px;
+            font-weight:bold;
+        }
+
+        input, textarea{
+            width:100%;
+            padding:8px;
+            margin-top:5px;
+            border:1px solid #ccc;
+            border-radius:5px;
+        }
+
+        textarea{
+            resize:none;
+            height:100px;
+        }
+
+        .btns{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        button{
+            padding:8px 20px;
+            margin:5px;
+            border:none;
+            border-radius:5px;
+            background:#444;
+            color:white;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:orange;
+        }
+
+        .info{
+            margin-top:30px;
+            text-align:center;
+            color:#555;
+        }
+
+        a{
+            display:inline-block;
+            margin-top:15px;
+            text-decoration:none;
+            background:#444;
+            color:white;
+            padding:8px 16px;
+            border-radius:5px;
+        }
+
+        a:hover{
+            background:orange;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>We’d love to hear from you</p>
+</header>
+
+<div class="container">
+    <h2>Get in Touch</h2>
+
+    <form>
+        <label>Name</label>
+        <input type="text" required>
+
+        <label>Email</label>
+        <input type="email" required>
+
+        <label>Message</label>
+        <textarea required></textarea>
+
+        <div class="btns">
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+
+    <div class="info">
+        <p>📧 Email: contact@artgallery.com</p>
+        <p>📞 Phone: +91 12345 67890</p>
+        <p>📍 Address: Art Street, Creative City</p>
+
+        <a href="gallery.html">⬅ Back to Gallery</a>
+    </div>
+</div>
+
+</body>
+</html>

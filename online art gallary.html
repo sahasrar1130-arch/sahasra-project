@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Art Gallery</title>
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background: url("main.jpg") no-repeat center center fixed;
+            background-size: cover;
+
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            font-family: Arial, sans-serif;
+        }
+
+     
+        .class1 {
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            width: 350px;
+            border-radius: 10px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 14px;
+            text-align: center;
+        }
+
+        legend {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+
+        .class1 div {
+            margin-bottom: 12px;
+        }
+
+        label {
+            display: block;
+            font-size: 14px;
+        }
+
+        input {
+            width: 100%;
+            padding: 6px;
+            margin-top: 4px;
+        }
+
+        button {
+            padding: 6px 15px;
+            margin-right: 10px;
+        }
+
+        .btns {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<form action="gallary.html" method="GET">          
+    <div class="class1">
+
+        <h1>Art Gallery</h1>
+
+        <p>
+            An art gallery is a dedicated space for exhibiting and selling visual arts
+            like paintings and sculptures.
+        </p>
+
+        <legend>Login details:</legend>
+
+        <div>
+            <label>First Name</label>
+            <input type="text" required>
+        </div>
+
+        <div>
+            <label>Last Name</label>
+            <input type="text" required>
+        </div>
+
+        <div>
+            <label>Contact No</label>
+            <input type="tel" placeholder="+91234567890" pattern="[0-9]{10}">
+        </div>
+
+        <div>
+            <label>Email</label>
+            <input type="email" placeholder="abc@gmail.com">
+        </div>
+
+        <div class="btns">
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+    </div>
+</form>
+
+</body>
+</html>
